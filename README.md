@@ -26,7 +26,7 @@ The application features a graphical user interface (GUI) built with Tkinter and
 
 
 
---
+
 
 # Queuing System Analyzer and Simulator
 
