@@ -21,5 +21,44 @@ The application features a graphical user interface (GUI) built with Tkinter and
 
 ## Usage
 
-Run the mm1_queue_simulation.py script: python mm1_queue_simulation.py
+Run the mm1_queue_simulation.py
 Enter the desired input parameters for arrival rate, service rate, and number of customers, then click Run Simulation. The GUI will display results and a plot of queue length over time.
+
+
+
+
+# Queuing System Analyzer and Simulator
+
+This Python project implements analytical models and a discrete-event simulation for classical queuing systems including M/M/1, M/M/k, M/M/1/K, M/M/1/m, and M/M/∞ queues.
+
+## Features
+
+- Analytical computation of performance metrics for:
+  - M/M/1 (single server, infinite buffer)
+  - M/M/k (multiple servers)
+  - M/M/1/K (finite buffer)
+  - M/M/1/m (finite population)
+  - M/M/∞ (infinite servers)
+- Discrete-event simulation of the M/M/1 queue
+- Automatic model selection based on input parameters
+- Interactive user input interface
+- Detailed formatted output of key performance measures:
+  - Probability of zero customers (P₀)
+  - Utilization (ρ)
+  - Average number in system (L)
+  - Average number in queue (Lq)
+  - Average waiting time in system (W)
+  - Average waiting time in queue (Wq)
+  - Probability server is busy (Pw)
+  - Probability of n customers in system (Pn)
+
+## Usage
+- Run the program
+- You will be prompted to enter the following parameters:
+- Arrival rate (λ)
+- Service rate (μ)
+- Number of customers to calculate Pₙ for (n)
+- Optional: Number of servers (k), buffer size (K), population size (m)
+- The program automatically selects the appropriate queuing model and outputs performance metrics.
+
+
