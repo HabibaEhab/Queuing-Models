@@ -21,11 +21,12 @@ The application features a graphical user interface (GUI) built with Tkinter and
 
 ## Usage
 
-Run the mm1_queue_simulation.py
-Enter the desired input parameters for arrival rate, service rate, and number of customers, then click Run Simulation. The GUI will display results and a plot of queue length over time.
+- Run the mm1_queue_simulation.py
+- Enter the desired input parameters for arrival rate, service rate, and number of customers, then click Run Simulation. The GUI will display results and a plot of queue length over time.
 
 
 
+--
 
 # Queuing System Analyzer and Simulator
 
